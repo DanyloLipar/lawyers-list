@@ -1,0 +1,31 @@
+.lawyers {
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  margin-top: 70px;
+
+  &__heading {
+    &-box {
+      & > td,
+      th {
+        background: $blue-1;
+      }
+    }
+  }
+}
+
+.invalid-field {
+  background: $red-1;
+}
+
+table,
+th,
+td {
+  border: 2px solid #000;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
